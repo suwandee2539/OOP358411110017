@@ -15,11 +15,42 @@ public class ex1 {
         int myNum[] = inputData(num);
         //show data in array
         showData(myNum); //showData(inputData(num));
-
+        showDataEnchange(myNum);
+        //finding minimum integer in array
+        findMin(myNum);
+        //finding maximum integer in array
+        findmax(myNum);
 
 
 
     }//main
+
+    private static void findmax(int[] myNum) {
+        int max = myNum[0];
+        for (int i = 0; i < myNum.length ; i++) {
+            if (max<myNum[i])
+                max = myNum[i];
+        }
+        System.out.println("The maximum integer is: "+max);
+    }
+
+    private static void findMin(int[] myNum) {
+        int min = myNum[0];
+        for (int i = 0; i < myNum.length ; i++) {
+            if (min>myNum[i])
+                min = myNum[i];
+        }
+        System.out.println("The minimum integer is: "+min);
+    }
+
+    private static void showDataEnchange(int[] myNum) {
+        System.out.println("Data in array(enchange):");
+        for (int val:myNum
+             ) {
+            System.out.print(val+"\t");
+        }
+        System.out.println();
+    }
 
     private static int[] inputData(int[] num) {
         Scanner scanner = new Scanner(System.in);
