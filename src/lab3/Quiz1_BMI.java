@@ -27,11 +27,7 @@ public class Quiz1_BMI {
             System.out.println("อ้วน/โรคอ้วนระดับที่ 2");
         else
             System.out.println("อ้วนมาก/โรคอ้วนระดับที่ 3");
-
-
-
     }//main
-
 }//class
 
 

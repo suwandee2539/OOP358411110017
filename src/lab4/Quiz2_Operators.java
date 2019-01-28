@@ -32,5 +32,4 @@ public class Quiz2_Operators {
         private static int sumt(int x, int y){
         return x + y;
         }//sumt
-
 }//Class

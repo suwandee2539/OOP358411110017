@@ -1,6 +1,6 @@
 package lab2;
 
-public class ez2 {
+public class ex2 {
 
     public static void main(String[] args) {
         //if
@@ -12,13 +12,7 @@ public class ez2 {
         }
 
 
-
-
         System.out.println(x);
-
-
-
-
 
 
     }//main

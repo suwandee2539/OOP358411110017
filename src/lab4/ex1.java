@@ -6,7 +6,6 @@ public class ex1 {
         System.out.println("Hello B.");
     }//B
 
-
     public static void main(String[] args) {
         System.out.println("Hello Main.");
         //call method
@@ -28,8 +27,5 @@ public class ex1 {
         int c = a + b;
         return c;
     }//C
-
-
-
 
 }//class

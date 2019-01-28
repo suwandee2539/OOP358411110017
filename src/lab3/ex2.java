@@ -17,7 +17,6 @@ public class ex2 {
         int age = sc.nextInt();
         System.out.println("คุณ อายุ "+age+" ปี ");
 
-
         //address
         System.out.print("ที่อยู่ ? : ");
         int address = sc.nextInt();

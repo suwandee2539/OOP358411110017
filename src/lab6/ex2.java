@@ -23,5 +23,4 @@ public class ex2 {
         else
             System.out.println("m less than n");
     }
-
 }

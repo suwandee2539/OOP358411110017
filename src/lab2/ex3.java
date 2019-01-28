@@ -19,7 +19,5 @@ public class ex3 {
         else
             System.out.println("Invalid Score.             ");
 
-
-
     }//main
 }

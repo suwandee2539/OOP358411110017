@@ -18,7 +18,6 @@ public class ex1 {
         d = d * 10;
         System.out.println(d);
 
-
         //character
         char e = '#';
         System.out.println(e);
@@ -29,18 +28,6 @@ public class ex1 {
         System.out.println(str.length());
         System.out.println(str.toUpperCase());
 
-
-
-
-
-
-
-
-
-
-
     }//main
-
-
 
 }//class

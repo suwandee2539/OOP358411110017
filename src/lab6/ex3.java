@@ -22,6 +22,5 @@ public class ex3 {
         while (token.hasMoreElements()){
             System.out.println(token.nextToken());
         }
-
     }//main
 }//class
